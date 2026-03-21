@@ -12,7 +12,7 @@ models = [
     "Mercury Coder",
     "GPT 4.1 Nano",
     "Mercury 2",
-    ""
+    "Gemini 2.5 Flashlite"
 ]
 
 clients = {
@@ -34,7 +34,7 @@ Do not provide any explanation at all, assuming the user knows how to code. Also
 def user_prompt_for(code_type, prompt):
     return f"""
 Generate code about {prompt} to {code_type} with the fastest possible implementation that produces identical output in the least time.
-Respond only with {code_type} code. Do NOT provide ANY explanation..
+Respond only with {code_type} code. Do NOT provide ANY explanation.
 Prompt:
 {prompt}
 """
