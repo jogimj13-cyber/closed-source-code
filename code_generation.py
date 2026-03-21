@@ -75,7 +75,7 @@ theme = gr.themes.Default(font=[gr.themes.GoogleFont("Source Code Pro")], primar
 
 with gr.Blocks(theme=theme, title="CODER-AI") as ui:
     with gr.Row():
-        model = gr.Dropdown(models, label="Select Model", value="Yi-Coder")
+        model = gr.Dropdown(models, label="Select Model", value=models[0])
         code_type = gr.Dropdown(coding_language, label="Select Coding Language", value=coding_language[0])
     with gr.Row():
         prompt = gr.Textbox(label="Prompt the code you want our AI assistant to generate!", lines = 14, value = "Generate a code snippet calculating the logarithm of any number.")
