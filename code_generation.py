@@ -57,14 +57,14 @@ def port(model, prompt, code_type):
 
 
 coding_language = [
-    "HTML: Front-end, simple, website-used programming",
-    "CSS: Front and back-end stylist programming",
-    "Python: Simple, object oriented programming",
-    "Java: High-level, object-oriented programming",
-    "C++: High-performance, compiled programming",
-    "C#: Modern, general-purpose, object-oriented programming",
-    "PHP: Widely-used, open-source, server-side scripting programming",
-    "Rust: Modern, high-performance systems programming"
+    "🌐HTML: Front-end, simple, website-used programming",
+    "🎨CSS: Front and back-end stylist programming",
+    "🐍Python: Simple, object oriented programming",
+    "☕Java: High-level, object-oriented programming",
+    "➕➕C++: High-performance, compiled programming",
+    "#️⃣C#: Modern, general-purpose, object-oriented programming",
+    "🐘PHP: Widely-used, open-source, server-side scripting programming",
+    "🦀Rust: Modern, high-performance systems programming"
 ]
 
 
