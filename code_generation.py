@@ -33,9 +33,9 @@ Do not provide any explanation at all, assuming the user knows how to code. Only
 # Creates user prompt
 def user_prompt_for(code_type, prompt):
     return f"""
-Generate code about {prompt} to {code_type} with the fastest possible implementation that produces identical output in the least time.
+Generate {code_type} code with the fastest possible implementation in the least time.
 Respond only with {code_type} code. Do NOT provide ANY explanation.
-Prompt:
+Task:
 {prompt}
 """
 
