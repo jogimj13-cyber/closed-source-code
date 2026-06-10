@@ -9,5 +9,3 @@ Need python installed - to code with
 Need openai module installed - for AI communication
 
 Need gradio installed - UI
-
-Need models already pulled - to use them
